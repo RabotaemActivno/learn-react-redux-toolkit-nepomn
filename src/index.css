@@ -18,6 +18,8 @@
 .input {
   border: 1px solid grey;
   border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 .todo__wrapper{
   width: 300px;
@@ -30,4 +32,10 @@
   display: flex;
   justify-content: space-between;
   list-style: none;
+  align-items: center;
+  gap: 5px;
+}
+
+.input::placeholder {
+  color: red;
 }
